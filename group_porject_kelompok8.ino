@@ -36,7 +36,7 @@ void loop()
   float kelembaban = dht.readHumidity();
 
 
-  if (kelembaban > 50) {
+  if (kelembaban > 75) {
     digitalWrite(buzzerPin,HIGH);
   } else {
     digitalWrite(buzzerPin,LOW);   
